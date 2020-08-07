@@ -4,6 +4,7 @@ metadata:
   name: db
   labels:
     app: db
+  namespace: vote
 spec:
   replicas: 1
   selector:
